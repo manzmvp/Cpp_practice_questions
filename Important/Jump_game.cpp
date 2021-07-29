@@ -6,7 +6,7 @@ int main(){
     int size=sizeof(arr)/sizeof(arr[1]);
     int reachable = 0;
     for(int i=0;i<size;i++){
-        if(i<reachable){
+        if(i>reachable){
             cout<<"False";
             return false;
         }
